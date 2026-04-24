@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#grid {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.wall {
+  background-color: black;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.visited {
+  background-color: lightblue;
+}
+
+.path {
+  background-color: yellow;
+}
